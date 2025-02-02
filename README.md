@@ -2,7 +2,7 @@
 
 This project is a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and Prisma.
 
-## Features
+## Technologies
 
 - NestJS framework for building server-side applications
 - PostgreSQL for database
