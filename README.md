@@ -1,12 +1,12 @@
-# NestJS CRUD REST API with Docker, Swagger, and Prisma
+# Recipes CRUD
 
-This project is a CRUD (Create, Read, Update, Delete) REST API built with NestJS, Docker, Swagger, and Prisma. It demonstrates how to create a robust and scalable API using modern web development technologies.
+This project is a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and Prisma.
 
 ## Features
 
-- NestJS framework for building efficient and scalable server-side applications
-- PostgreSQL database
-- Prisma as the ORM for database operations
+- NestJS framework for building server-side applications
+- PostgreSQL for database
+- Prisma as the ORM
 - Docker for containerization and easy deployment
 - Swagger for API documentation
 - CRUD operations for managing recipes
@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gabrielbiscaia/crud-recipes.git
-   cd crud-recipes
+   git clone https://github.com/gabrielbiscaia/recipes-crud/.git
+   cd recipes-crud/
    ```
 
 2. Install dependencies:
@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed on your local machine:
 
 5. Run Prisma migrations:
    ```bash
-   npx prisma migrate dev
+   npx prisma db push
    ```
 
 6. Generate Prisma client:
