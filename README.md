@@ -1,9 +1,11 @@
 # Recipes CRUD
 
-## Objective
+![image](https://github.com/user-attachments/assets/c646dacb-e6bd-4fde-a716-d425c4c6082d)
+
+## 🎯 Objective
 Create a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and Prisma, that allows users to manage recipes.
 
-## Technologies
+## 🧰 Technologies
 
 - NestJS framework for building server-side applications
 - PostgreSQL for database
@@ -12,7 +14,7 @@ Create a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and 
 - Swagger for API documentation
 - CRUD operations for managing recipes
 
-## Prerequisites
+## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
 
@@ -21,14 +23,14 @@ Before you begin, ensure you have the following installed on your local machine:
 - Docker and Docker Compose
 - Git
 
-## Settings
+## ⚙️ Settings
 To run the application, you need to put in the .env file the following variables:
 ```
-### PostgreSQL
+# PostgreSQL
 DATABASE_URL='YOUR_DATABASE_URL'
 ```
 
-## Installation
+## 🛠️ Installation
 
 1. Clone the repository:
    ```bash
@@ -62,7 +64,7 @@ DATABASE_URL='YOUR_DATABASE_URL'
    npx prisma generate
    ```
 
-## Running the Application
+## ▶️ Running the Application
 
 1. Start the NestJS application:
    ```bash
@@ -73,7 +75,7 @@ DATABASE_URL='YOUR_DATABASE_URL'
 
 3. Access the Swagger documentation at `http://localhost:3000/api`
 
-## API Endpoints
+## 🚪 API Endpoints
 
 - `GET /recipes`: Fetch all recipes
 - `GET /recipes/:id`: Fetch a single recipe by ID
@@ -83,7 +85,7 @@ DATABASE_URL='YOUR_DATABASE_URL'
 
 For detailed information about request/response formats, please refer to the Swagger documentation.
 
-## Testing
+## 🧪 Testing
 
 To run the tests:
 
