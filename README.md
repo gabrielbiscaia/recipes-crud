@@ -14,7 +14,7 @@ Create a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and 
 - Swagger for API documentation
 - CRUD operations for managing recipes
 
-## 📋 Prerequisites
+## 📋 Requirements
 
 Before you begin, ensure you have the following installed on your local machine:
 
