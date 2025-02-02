@@ -5,21 +5,21 @@ Create a CRUD (Create, Read, Update, Delete) using NestJS, Docker, Swagger, and 
 
 ## Technologies
 
-• NestJS framework for building server-side applications
-• PostgreSQL for database
-• Prisma as the ORM
-• Docker for containerization and easy deployment
-• Swagger for API documentation
-• CRUD operations for managing recipes
+- NestJS framework for building server-side applications
+- PostgreSQL for database
+- Prisma as the ORM
+- Docker for containerization and easy deployment
+- Swagger for API documentation
+- CRUD operations for managing recipes
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
 
-• Node.js (v14 or later)
-• npm (comes with Node.js)
-• Docker and Docker Compose
-• Git
+- Node.js (v14 or later)
+- npm (comes with Node.js)
+- Docker and Docker Compose
+- Git
 
 ## Settings
 To run the application, you need to put in the .env file the following variables:
@@ -75,11 +75,11 @@ DATABASE_URL='YOUR_DATABASE_URL'
 
 ## API Endpoints
 
-• `GET /recipes`: Fetch all recipes
-• `GET /recipes/:id`: Fetch a single recipe by ID
-• `POST /recipes`: Create a new recipe
-• `PATCH /recipes/:id`: Update an existing recipe
-• `DELETE /recipes/:id`: Delete a recipe
+- `GET /recipes`: Fetch all recipes
+- `GET /recipes/:id`: Fetch a single recipe by ID
+- `POST /recipes`: Create a new recipe
+- `PATCH /recipes/:id`: Update an existing recipe
+- `DELETE /recipes/:id`: Delete a recipe
 
 For detailed information about request/response formats, please refer to the Swagger documentation.
 
